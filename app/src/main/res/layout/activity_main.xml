@@ -11,7 +11,7 @@
     tools:context="com.cmpt276.kenney.portandstarboard.MainActivity">
 
     <TextView
-        android:text="How to Navigate a Ship"
+        android:text="@string/how_to_navigate_a_ship"
         android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:text="Show Right Name"
+        android:text="@string/show_right_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/buttonleft"
@@ -29,7 +29,7 @@
         android:id="@+id/buttonright" />
 
     <Button
-        android:text="Show Left Name"
+        android:text="@string/show_left_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/buttonleft"
@@ -38,7 +38,7 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:text="Means Left"
+        android:text="@string/means_left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/bottombuttonleft"
@@ -47,7 +47,7 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:text="Means Right"
+        android:text="@string/means_right"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -56,13 +56,21 @@
         android:id="@+id/bottombuttonright" />
 
     <TextView
-        android:text="“Which side of the ship is the
-                    following?"
+        android:text="@string/which_side_of_the_ship_is_the_following"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/quiztext"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quiztext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/quizanswer"
+        android:textSize="18sp" />
 
 </RelativeLayout>

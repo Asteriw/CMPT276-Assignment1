@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Port and Starboard</string>
+    <string name="how_to_navigate_a_ship">How to Navigate a Ship</string>
+    <string name="show_right_name">Show Right Name</string>
+    <string name="show_left_name">Show Left Name</string>
+    <string name="means_left">Means Left</string>
+    <string name="means_right">Means Right</string>
+    <string name="which_side_of_the_ship_is_the_following">“Which side of the ship is the following?</string>
 </resources>
