@@ -57,8 +57,8 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    Log.i(TAG, "User guess of Port was Incorrect");
-                    Toast.makeText(getApplicationContext(), "Incorrect!", Toast.LENGTH_SHORT)
+                    Log.i(TAG, "User guess of Port was Incorrect.");
+                    Toast.makeText(getApplicationContext(), "Incorrect. :(", Toast.LENGTH_SHORT)
                             .show();
                 }
                 ShipQuiz = new Game();
@@ -78,8 +78,8 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    Log.i(TAG, "User guess of Starboard was Incorrect");
-                    Toast.makeText(getApplicationContext(), "Incorrect!", Toast.LENGTH_SHORT)
+                    Log.i(TAG, "User guess of Starboard was Incorrect.");
+                    Toast.makeText(getApplicationContext(), "Incorrect. :(", Toast.LENGTH_SHORT)
                             .show();
                 }
                 ShipQuiz = new Game();
